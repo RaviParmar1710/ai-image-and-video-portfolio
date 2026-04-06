@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ravi Parmar | AI Video Architect</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <!-- Infinite Space Background -->
+    <div class="canvas-container">
+      <canvas id="space-canvas"></canvas>
+      <div class="video-overlay"></div>
+    </div>
+
+    <!-- 3D Scroll Tunnel -->
+    <main class="tunnel-container" id="tunnel">
+      
+      <!-- Location 1: Deep Space Orbit (Floating Cinematic Text) -->
+      <section class="viewport-section" id="hero" data-z-index="0" data-type="text">
+        <div class="cinematic-text-wrap">
+          <h1 class="brand-title space-title">RAVI PARMAR</h1>
+          <h2 class="brand-subtitle">AI Video Architect & Prompt Engineer</h2>
+          <p class="warp-text">Engage Thrusters. Scroll down to enter the Multiverse.</p>
+        </div>
+      </section>
+
+      <!-- THE SPACE STATION PORTAL LAYER -->
+      <section class="viewport-section" data-z-index="1" data-type="frame">
+         <img src="/station.png" class="portal-frame" alt="Space Station" />
+      </section>
+
+      <!-- Location 2: Approaching the Station (About & Experience) -->
+      <section class="viewport-section" id="about-experience" data-z-index="2" data-type="text">
+        <div class="glass-card sci-fi-hud">
+          <h2 style="color: #A8B2FF;">Mission Logs: About & Experience</h2>
+          <p>I traverse the latent space to transform abstract concepts into hyper-realistic, agency-level visual universes.</p>
+          <div class="stats-grid" style="margin-bottom: 2rem;">
+            <div class="stat">
+              <h3>1 Year +</h3>
+              <span>Flight Time</span>
+            </div>
+            <div class="stat">
+              <h3>100%</h3>
+              <span>AI Mastery</span>
+            </div>
+          </div>
+          <ul class="timeline">
+            <li>
+              <h4>Freelance AI/Data Analyst</h4>
+              <span>Bliss Web Solution | Dec 2023 - Present</span>
+              <p>Optimizing platforms with AI models and data processing workflows.</p>
+            </li>
+            <li>
+              <h4>AI Intern</h4>
+              <span>Prasunet Pvt. Ltd.</span>
+              <p>Developed AI-powered Automated UI/UX Testing Systems using Computer Vision.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- THE LABORATORY PORTAL LAYER -->
+      <section class="viewport-section" data-z-index="3" data-type="frame">
+         <img src="/lab.png" class="portal-frame" alt="Cyberpunk Lab" />
+      </section>
+
+      <!-- Location 3: The Data Core / Computer Screens (Interactive Gallery) -->
+      <section class="viewport-section" id="projects" data-z-index="4" data-type="text">
+        <div class="gallery-wrapper sci-fi-hud">
+          <h2 style="color: #A8B2FF;">The Constellation: Visual Archives</h2>
+          <p style="text-align: center; margin-bottom: 2rem;">Click any databank to open the high-resolution AI transmission.</p>
+          <div class="grid-layout">
+            <div class="img-box"><img src="/gallery1.png" alt="AI Project 1" /></div>
+            <div class="img-box"><img src="/gallery2.png" alt="AI Project 2" /></div>
+            <div class="img-box"><img src="/gallery3.png" alt="AI Project 3" /></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Location 4: Contact -->
+      <section class="viewport-section" id="contact" data-z-index="5" data-type="text">
+        <div class="glass-card sci-fi-hud" style="text-align: center;">
+          <h2 style="color: #A8B2FF;">Initiate Comms Sequence</h2>
+          <p>Ready to deploy your next high-end AI visual campaign?</p>
+          <a href="mailto:raviparmar31710@gmail.com" class="btn">Establish Uplink</a>
+        </div>
+      </section>
+
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
